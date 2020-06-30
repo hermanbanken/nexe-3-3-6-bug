@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nexe -t linux-x64-12.16.2 -o test-x64"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv": "^5.3.2",
     "csv-stringify": "^5.5.0"
   },
   "devDependencies": {
